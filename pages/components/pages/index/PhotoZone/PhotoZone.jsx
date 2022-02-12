@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Image } from 'antd';
 import styles from './photoZone.module.css'
 
-export default function PhotoApprovalZone({ userName, imgs }) {
+export default function PhotoApprovalZone({ userName, imgs = [] }) {
     const [imgTotal, setImgTotal] = useState(imgs)
 
     return (

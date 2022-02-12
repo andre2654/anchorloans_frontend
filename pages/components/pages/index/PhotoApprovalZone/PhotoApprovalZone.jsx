@@ -6,7 +6,7 @@ import styles from './photoApprovalZone.module.css'
 
 import api from '../../../../../services/api'
 
-export default function PhotoApprovalZone({ imgs }) {
+export default function PhotoApprovalZone({ imgs = [] }) {
     const router = useRouter();
     const [numImgEachPage, setNumImgEachPage] = useState(5)
     const [imgTotal, setImgTotal] = useState(imgs)
