@@ -1,6 +1,5 @@
 module.exports = {
   reactStrictMode: true,
-  distDir: 'build',
   env: {
     AWS_ACCESSKEY_ID: 'AKIAW6BKNUPWXHHDO2UP',
     AWS_ACCESSKEY_KEY: 'rHc2G8f/OMcD0zEXI/fwNXOj2RyNOTnKUGA820dL',
