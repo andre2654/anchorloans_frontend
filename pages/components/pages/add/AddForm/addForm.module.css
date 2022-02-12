@@ -1,0 +1,20 @@
+#add_form_container {
+    background-color: var(--bg-color);
+}
+
+#add_form_container #add_form_title {
+    font-size: 25px;
+}
+
+#add_form_container #add_form_submit {
+    border: none;
+    color: var(--text-color);
+    background-color: var(--main-color);
+
+    transition: 0.3s 0s ease-in-out;
+}
+
+#add_form_container #add_form_submit:hover {
+    color: var(--main-color);
+    background-color: var(--special-color);
+}

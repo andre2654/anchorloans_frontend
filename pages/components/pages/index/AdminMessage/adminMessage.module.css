@@ -1,0 +1,7 @@
+#admin_message_container {
+    background-color: var(--main-light-color);
+}
+
+#admin_message_container #admin_message {
+    font-size: 12px;
+}

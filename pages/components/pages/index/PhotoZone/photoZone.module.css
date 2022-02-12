@@ -1,0 +1,18 @@
+#photo_zone_container #title {
+    color: var(--main-color);
+    font-size: 20px;
+}
+
+#photo_zone_container .photo_container {
+    position: relative;
+}
+
+#photo_zone_container .photo_container .author {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: var(--text-color);
+
+    font-size: 11px;
+    color: var(--main-color);
+}

@@ -1,0 +1,67 @@
+#photo_approval_zone_container {
+    background-color: var(--text-color);
+}
+
+#photo_approval_zone_container #title {
+    color: var(--main-color);
+    font-size: 15px;
+
+    border-bottom: 2px solid var(--main-color);
+}
+
+#photo_approval_zone_container #title span {
+    background-color: var(--main-color);
+    color: var(--text-color);
+
+    font-size: 10px;
+}
+
+#photo_approval_zone_container .photo_container {
+    background-color: var(--bg-color);
+}
+
+#photo_approval_zone_container .photo_container:hover {
+    background-color: var(--main-color);
+}
+
+#photo_approval_zone_container .photo_container:hover .desc {
+    background-color: var(--main-color);
+
+    color: var(--text-color);
+}
+
+#photo_approval_zone_container .photo_container .desc {
+    color: var(--main-color);
+    font-size: 12px;
+}
+
+#photo_approval_zone_container .photo_container:hover .btn {
+    background-color: var(--main-light-color);
+}
+
+#photo_approval_zone_container .photo_container .btn {
+    background-color: var(--text-color);
+    border: none;
+
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#photo_approval_zone_container .photo_container .btn.approve_btn {
+    color: var(--main-color);
+    border-bottom: 2px solid var(--special-color);
+}
+
+#photo_approval_zone_container .photo_container .btn.approve_btn:hover {
+    background-color: var(--special-color);
+}
+
+#photo_approval_zone_container .photo_container .btn.reject_btn {
+    color: var(--main-color);
+    border-bottom: 2px solid var(--warning-color);
+}
+
+#photo_approval_zone_container .photo_container .btn.reject_btn:hover {
+    background-color: var(--warning-color);
+    color: var(--text-color);
+}

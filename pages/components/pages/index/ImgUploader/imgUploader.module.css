@@ -1,0 +1,27 @@
+#submit_img_container {
+    background-color: var(--text-color);
+    border: 1.5px dashed var(--main-color);
+}
+
+#submit_img_container .submit_img_icon {
+    font-size: 35px;
+    color: var(--main-color);
+}
+
+#submit_img_container #submit_img_container_submit_btn {
+    background-color: var(--main-color);
+    border: none;
+
+    color: var(--text-color);
+}
+
+#submit_img_container #submit_img_progressBar {
+    height: 10px;
+    background-color: var(--main-color);
+}
+
+#submit_img_container #submit_img_progressBar span {
+    background-color: var(--text-color);
+
+    color: var(--main-color);
+}

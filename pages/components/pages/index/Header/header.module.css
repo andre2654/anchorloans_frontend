@@ -1,0 +1,24 @@
+#header {
+    background-color: var(--main-color);
+    position: sticky;
+    top: 0px;
+
+    z-index: 2;
+}
+
+#header #username {
+    color: var(--text-color);
+    font-size: 13px;
+}
+
+#header #header_upload_btn {
+    background-color: var(--special-color);
+    border: none;
+}
+
+#header #header_exit_btn {
+    background-color: transparent;
+    border: none;
+
+    color: var(--text-color);
+}

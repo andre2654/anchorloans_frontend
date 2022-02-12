@@ -1,0 +1,20 @@
+#login_form_container {
+    background-color: var(--bg-color);
+}
+
+#login_form_container #login_form_title {
+    font-size: 25px;
+}
+
+#login_form_container #login_form_submit {
+    border: none;
+    color: var(--text-color);
+    background-color: var(--main-color);
+
+    transition: 0.3s 0s ease-in-out;
+}
+
+#login_form_container #login_form_submit:hover {
+    color: var(--main-color);
+    background-color: var(--special-color);
+}
